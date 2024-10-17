@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+body {
+            font-family: Comfortaa;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 10px;
+        }
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            padding-left: 10px;
+        }
+        .navbar .menu {
+            display: flex;
+            gap: 40px;
+        }
+        .navbar .menu a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            gap: 40px;
+        }
+        .navbar .search-bar {
+            display: flex;
+            align-items: center;
+            background-color: #ffccff;
+            border-radius: 20px;
+            padding: 5px 10px;
+            padding-right: 20px;
+        }
+        .navbar .search-bar input {
+            border: none;
+            background: none;
+            outline: none;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        .search-bar input::placeholder {
+            color: white;
+        }
+
+        .navbar .search-bar .icon img {
+            font-size: 18px;
+            color: white;
+            margin-top: 50;
+        }

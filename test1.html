@@ -1,72 +1,58 @@
- <html>
- <body>
- <section class="links">
-            <div class="px-4 py-3">
-                <div class="flex justify-center text-center">
-
-                    <div class="footerBox">
-                        <div class="footerBoxfont">
-                            <div>
-                                <img class="mx-2" src="./icons/icons8-round-80.png" alt="bulletIcon" width="10" height="10">
-                                <span>Social Media Links</span>
-                            </div>
-                        </div>
-                        <div class="my-2">
-                            <div>
-                                <img src="./icons/githubIcon.png" alt="githubIcon">
-                                <a style="text-decoration: none;" href="#"><span class="footerBoxfont mx-1">Youcode SAFI@2024</span></a>
-                            </div>
-                            <div class="my-2">
-                                <img src="./icons/LinkdinIcon.png" alt="LinkdinIcon">
-                                <a style="text-decoration: none;" href="#"><span class="footerBoxfont mx-4">CodeShogun</span></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="footerBox">
-                        <div class="footerBoxfont">
-                            <div>
-                                <img class="mx-2" src="./icons/icons8-round-80.png" alt="bulletIcon" width="10" height="10">
-                                <span>Sponsors</span>
-                            </div>
-                        </div>
-                        <div class="my-2">
-                            <p>Ciso - Amazon - Google - Azure - Linkedln</p>
-                            <p>IBM - Facebook - Tesla - Appel - Microsoft</p>
-                        </div>
-                    </div>
-
-                    <div class="footerBox">
-                        <div class="footerBoxfont">
-                            <div>
-                                <img class="mx-2" src="./icons/icons8-round-80.png" alt="bulletIcon" width="10" height="10">
-                                <span>Company</span>
-                            </div>
-                        </div>
-                        <div class="my-3">
-                            <div class="flex justify-around">
-                                <div><a class="text-white" href="#">Register</a></div>
-                                <div><a class="text-white" href="#">Login</a></div>
-                            </div>
-                            <div class="flex justify-around my-5 mx-2">
-                                <div><a class="text-white" href="#">Wishlist</a></div>
-                                <div><a class="text-white" href="#">Our Products</a></div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <footer class="flex justify-center" style="background-color: #330031; color: white;">
-            <pre>
-                A Fawectt book
-    Published by the Random House Publishing Group
-            Copyright @ 2022 by CodeShogun
-                All rights reserved
-            </pre>
-        </footer>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarifs</title>
+    <style>
+        body {
+            background-color: #a50082;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: left;
+        }
+        .category {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+        .price {
+            font-size: 2em;
+            float: right;
+        }
+        .note {
+            font-size: 0.8em;
+            color: #ccc;
+        }
+        .discount {
+            float: right;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="category">
+            Adulte <span class="price">50 DH</span>
+        </div>
+        <div class="category">
+            Enfant <span class="note">*moins de 12 ans</span> <span class="price">35 DH</span> <span class="discount">%</span>
+        </div>
+        <div class="category">
+            Etudiant <span class="note">*sur présentation d'une carte étudiant</span> <span class="price">40 DH</span> <span class="discount">%</span>
+        </div>
+        <div class="category">
+            Seniors <span class="note">*Plus de 65 ans</span> <span class="price">45 DH</span> <span class="discount">%</span>
+        </div>
+        <div class="category">
+            Famille <span class="note">*2 Adultes + 2 Enfants</span> <span class="price">30 DH</span>
+        </div>
     </div>
 </body>
 </html>

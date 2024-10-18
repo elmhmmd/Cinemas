@@ -314,7 +314,6 @@ margin-top: 15vh;
    div.footer-div {
     padding-top: 30px;
     background-color: #330031;
-    margin-top: 30px;
     display: flex;
     justify-content: space-around;
     height: 300px;
@@ -362,5 +361,52 @@ social-media-links {
     padding-top: 30px;
     color: white;
     font-size: 15px;
+   }
+
+   .Tarifs-Title p {
+        
+        font-size: 60px;
+        padding-left: 45vw;
+        padding-top: 20px;
+        font-family: Comfortaa;
+        padding-bottom: 40px;
+
+   }
+
+   .Tarifs {
+
+
+        background-color: #990094;    
+        height: 1000px;
+        width: 100%;
+        margin-bottom: 0;
+
+
+   }
+
+
+   .demographic > * {
+
+font-family: Comfortaa;
+font-size: 60px;
+
+   }
+
+
+   .icon2
+
+   {
+
+height: 50px;
+width: 50px;
+
+   }
+
+
+   .demographic pre {
+
+     margin-left: 30px;
+
+
    }
 

@@ -1,12 +1,78 @@
-<html>
-
-<div><p> stuff </p> </div>
-
 <style>
-  div {
-background-color: black;
-margin: 10px;
-/*padding: 40px;*/
-  }
+    .categorys {
+        padding-top: 30px;
+        font-size: 20px;
+        font-family: Comfortaa;
+        padding-bottom: 5px;
+        gap: 25px;
+        border-bottom: 1px solid gray;
+    }
+
+    .micro-category {
+        font-weight: 980px;
+        color: black;
+        opacity: 60%;
+        transform: scale(2.5);
+    }
+
+    .micro-category:hover {
+        opacity: 100%;
+        border-bottom: 8px solid #933C24;
+        border-radius: 3px;
+    }
+
+    .exploreImage {
+        border-radius: 25px;
+    }
+
+    .exploreImage:hover {
+        transform: scale(1.1);
+        transition-duration: 500ms;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 0fr);
+        gap: 70px;
+    }
 </style>
-</html>
+
+<section>
+    <div class="px-4 py-4">
+        <div>
+            <div class="flex justify-center explore">Explore More</div>
+            <div>
+                <div class="flex justify-center CategoBox">
+                    <div class="flex justify-center categorys px-2">
+                        <div><a href="#" class="micro-category">Action</a></div>
+                        <div><a href="#" class="micro-category">Horror</a></div>
+                        <div><a href="#" class="micro-category">Romance</a></div>
+                        <div><a href="#" class="micro-category">Comedy</a></div>
+                        <div><a href="#" class="micro-category">Thriller</a></div>
+                        <div><a href="#" class="micro-category">Fantasy</a></div>
+                    </div>
+                </div>
+                <div class="grid-container justify-center py-3">
+                    <div>
+                        <img class="exploreImage" src="images/More1.png" alt="Box1">
+                    </div>
+                    <div>
+                        <img class="exploreImage" src="images/More2.png" alt="Box2">
+                    </div>
+                    <div>
+                        <img class="exploreImage" src="images/More3.png" alt="Box3">
+                    </div>
+                    <div>
+                        <img class="exploreImage" src="images/More4.png" alt="Box4">
+                    </div>
+                    <div>
+                        <img class="exploreImage" src="images/More5.png" alt="Box5">
+                    </div>
+                    <div>
+                        <img class="exploreImage" src="images/More6.png" alt="Box6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

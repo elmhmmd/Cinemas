@@ -1,8 +1,8 @@
 # Cinémas
-================
+
 
 ## Résumé
------------
+
 
 Ce repository contient la mise en œuvre en HTML et CSS des maquettes Figma du site web Cinémas. L'objectif est de convertir les maquettes en code fonctionnel.
 

@@ -309,5 +309,42 @@ margin-top: 15vh;
      font-family: Comfortaa;
      color: white;
      background-color: #FFCCFD;
-
    }
+
+   div.footer-div {
+    padding-top: 30px;
+    background-color: #330031;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+   }
+
+   span {
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+
+span.column2{
+
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+span.column3{
+
+    margin-right: 20px;
+}
+
+social-media-links {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.icon {
+  margin-right: 10px; 
+}

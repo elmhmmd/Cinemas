@@ -121,14 +121,14 @@
             margin-top: -5px;
         }
 
-        .top-movies {
+        .top-movies, .explore-movies {
             display: flex;
             justify-content: space-around;
             width: 98vw;
             margin-top: 20px;
         }
 
-        .top-movies img {
+        .top-movies img, .explore-movies img {
             height: 30vw;
             width: 20vw;
         }
@@ -410,3 +410,57 @@ width: 50px;
 
    }
 
+
+   .movies-page {
+
+    background-color:black;
+    margin-top:30px;
+    height:1000px;
+    width: 100%;
+
+   }
+   
+   .line2 {
+
+            padding-top: 100px;
+            position: relative;
+            width: 100%;
+            height: 1px;
+            background-color: black; 
+            max-width: 100%
+        }
+
+    .intermediate {
+
+        left: 80px;
+        top: 150px;
+        position: relative;
+        max-width:100%;
+    }
+    
+    .tab-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .tab-bar label {
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .tab-bar input[type="radio"] {
+    display: none;
+  }
+
+  .tab-bar input[type="radio"]:checked + label {
+    border-bottom: 2px solid #333;
+  }
+
+  .marge {
+
+    margin-top: 30px;
+  }
